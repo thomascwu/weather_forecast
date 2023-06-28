@@ -1,3 +1,25 @@
+=begin
+
+  Steps to make the successful this WeatherForecastService call:
+
+  1. OpenWeather API is used to get the weather forecast details using the real OpenWeather API credentials
+
+  2. How to set up the real OpenWeather API credentials in the app:
+  
+    1. You need to sign up to get your real OpenWeather API credentials here: https://openweathermap.org
+
+    2. Set your real ArcGIS API credentials in the Rails credentials object:
+
+        Edit Rails credentials: 
+
+          EDITOR="code --wait"  bin/rails credentials:edit
+
+        Your real OpenWeather API credentials should look like this:
+
+          openweather_api_key: <your OpenWeather API key that assigned to you after sign up>
+
+=end
+
 # Service class to make the API call to return the weather forecase details based on the geocodes of the input address
 class WeatherForecastService
     

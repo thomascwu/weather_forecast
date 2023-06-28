@@ -20,7 +20,9 @@ I use the latest versions of ruby & rails:
 
 * Comments in details are within the codes
 
-* I also provide the details related to the topics such as decomposition, scalability, etc in this document
+* I provide the specific instructions within the service classes codes on how to make the successful API calls with valid credentials
+
+* I also provide the details below related to the topics such as decomposition, scalability, etc in this document
 
 # Decomposition
 
